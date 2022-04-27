@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: url(./imgss/Contact\ image.jpg);
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-container h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contact-content {
+  display: flex;
+  margin: 30px 120px;
+}
+.contact-left {
+  color: white;
+  background: black;
+  flex-basis: 70%;
+  padding: 20px;
+  width: 50vw;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contact-right {
+  height: 50vh;
+  background: red;
+  flex-basis: 30%;
+  padding: 20px;
+  width: 50vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.input-row {
+  display: flex;
+  flex-direction:column;
+}
+
+.input-row input:hover{
+  transition: 1ms ease-in-out;
+  border-bottom: 1px solid red;
+}
+
+.input-row input{
+  color: white;
+  display: block;
+  margin-top: 15px;
+  background: transparent;
+  border: none;
+  border-bottom:  1px solid white;
+  outline: none;
+  font-size: 20px;
+}
+
+.input-group{
+  font-size: 40px;
+  margin: 15px;
+}
+
+.input-group button{
+  display: flex;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
